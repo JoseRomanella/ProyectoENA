@@ -9,6 +9,7 @@ header{
     display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 50px 60px;
+    background-image: linear-gradient(to bottom, rgb(191, 191, 191),rgb(248, 248, 248));
 }
 
 .logoEna{
