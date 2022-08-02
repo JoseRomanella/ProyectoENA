@@ -4,12 +4,16 @@
 }
 
 /*------------------------------------------------------------------------------------------------------------*/
+.menu{
+
+    background-image: linear-gradient(to bottom, rgb(191, 191, 191),rgb(244, 244, 244));
+}
+
 header{
 
     display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 50px 60px;
-    background-image: linear-gradient(to bottom, rgb(191, 191, 191),rgb(248, 248, 248));
 }
 
 .logoEna{
@@ -42,14 +46,13 @@ header{
     grid-row: 1;
     justify-self:flex-end;
     margin-top: 15px;
-    margin-right: 30px;   
+    margin-right: 10%;   
 }
 
 .cart{
 
     max-width: 23px;
     max-height: 23px;
-    padding-right: 30px;
 }
 
 .user{
@@ -92,7 +95,7 @@ nav{
 /*------------------------------------------------------------------------------------------------------------*/
 /*HOME*/
 
-.slide1{
+.slide{
 
     height: 400px;
     width: 100%;
@@ -154,9 +157,10 @@ nav{
 
 #imgAboutUs{
 
-    background-image: url(https://media.gettyimages.com/photos/male-gymnast-practicing-on-parallel-bars-picture-id872635816?s=2048x2048);
+    /*background-image: url(https://media.gettyimages.com/photos/male-gymnast-practicing-on-parallel-bars-picture-id872635816?s=2048x2048);
     background-repeat: no-repeat;
     background-size: cover; 
+    */
 }
 
 #aboutUsFlex{
@@ -190,9 +194,10 @@ nav{
 
 #imgStores{
 
-    background-image: url(https://media.gettyimages.com/photos/arms-workout-picture-id1162019375?s=2048x2048);
+    /*background-image: url(https://media.gettyimages.com/photos/arms-workout-picture-id1162019375?s=2048x2048);
     background-repeat: no-repeat;
     background-size: cover; 
+    */
 }
 
 #storesGrid{
@@ -250,9 +255,10 @@ nav{
 
 #imgContact{
 
-    background-image: url(https://media.gettyimages.com/photos/basketball-arena-picture-id466336640?s=2048x2048);
+    /*background-image: url(https://media.gettyimages.com/photos/basketball-arena-picture-id466336640?s=2048x2048);
     background-repeat: no-repeat;
     background-size: cover; 
+    */
 }
 
 #contactFlex{
@@ -341,7 +347,6 @@ footer{
     
     max-width: 16px;
     max-height: 16px;
-    margin-top: 30px;
 }
 
 .youtube{
