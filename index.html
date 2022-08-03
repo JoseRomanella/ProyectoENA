@@ -8,58 +8,92 @@
 
     <!-- Título de pestaña -->
     <title>ENA</title>
-    <link class="logo" rel="shortcut icon" href="images/ENA_SPORT_Sin_Fondo_180x@2x.webp">
+    <link class="logo" rel="shortcut icon" href="images/iconmonstr-star-1-240.png">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-    <div class="menu">
-        <header>
-
-            <img class="logoEna" src="images/ENA_SPORT_Sin_Fondo_180x@2x.webp" alt="Logo ENA">
-
-            <input class="buscador" type="search" placeholder="search">
-
-            <div class="items">
-                <img class="cart" src="images/shopping_cart_FILL0_wght400_GRAD0_opsz48.png">
-                <img class="user" src="images/account_box_FILL0_wght400_GRAD0_opsz48.png">
+    
+    <header>
+         
+        <nav class="navbar navbar-expand-md navbar-white bg-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img class="logo horizontal-logo" src="images/ENA_SPORT_Sin_Fondo_180x@2x.webp" alt="Ena Logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../ProyectENA/pages/products.html">Products</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="../ProyectENA/pages/aboutus.html">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="../ProyectENA/pages/faq.html">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../ProyectENA/pages/contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </header>
+          </nav>
+    </header>
 
-        <nav>
-
-            <ul class="list">
-                <li class="page"><a class="name" href="index.html">HOME</a></li>
-                <li class="page"><a class="name" href="pages/products.html">PRODUCTS</a></li>
-                <li class="page"><a class="name" href="pages/aboutus.html">ABOUT US</a></li>
-                <li class="page"><a class="name" href="pages/stores.html">STORES</a></li>
-                <li class="page"><a class="name" href="pages/contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-    </div>
+    
 
     <section>
-        <article>
-
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Slide2.webp" class="d-block w-100" alt="Whey protein">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Slide3.webp" class="d-block w-100" alt="Descenso de peso">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Slide4.webp" class="d-block w-100" alt="Aminoacidos">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
             
-
-        </article>
     </section>
 
-    <footer>
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2022 ENA Sport</p>
+      </footer>
+    
 
-        <div class="socialMedia">
-            <img class="instagram" src="images/iconmonstr-instagram-15-240.png" alt="instagram">
-            <img class="youtube" src="images/iconmonstr-youtube-5.png" alt="youtube">
-            <img class="twitter" src="images/iconmonstr-twitter-5.png" alt="twitter">
-            <img class="facebook" src="images/iconmonstr-facebook-5.png" alt="facebook">
-        </div>
-
-        <h5><em>support@ena.com</em></p>
-
-    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
