@@ -171,6 +171,15 @@ body {
   overflow: hidden;
 }
 
+.row {
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  max-width: 540px;
+}
+
 /*----------------------------------------------------------------------------------------------------------------*/
 /*CONTACT*/
 .contactFlex {
