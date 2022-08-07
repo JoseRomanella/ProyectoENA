@@ -204,10 +204,19 @@ body {
 /*FAQ*/
 .title {
   text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: lighter;
+  padding-top: 3%;
 }
 
 .subtitle {
   text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: lighter;
+  padding-top: 2.5%;
+  padding-bottom: 3%;
 }
 
 .linksFAQ {
