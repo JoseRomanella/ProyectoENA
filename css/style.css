@@ -197,7 +197,7 @@ body {
 /*FAQ*/
 .title {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: x-large;
   font-weight: 400;
   padding-top: 3%;
@@ -205,9 +205,9 @@ body {
 
 .subtitle {
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: large;
-  font-weight: bold;
+  font-weight: 400;
   padding-top: 4%;
   padding-bottom: 2%;
 }
@@ -218,6 +218,12 @@ body {
 
 .accordion-button {
   font-weight: 500;
+}
+.accordion-button:focus {
+  background-color: white;
+  border-color: white;
+  box-shadow: none;
+  color: #24292E;
 }
 
 .accordion-body {
