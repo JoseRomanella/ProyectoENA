@@ -194,6 +194,37 @@ body {
 /*----------------------------------------------------------------------------------------------------------------*/
 /*ABOUT US*/
 /*----------------------------------------------------------------------------------------------------------------*/
+/*FAQ*/
+.title {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+  padding-top: 3%;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: bold;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+.linksFAQ {
+  text-decoration: none;
+}
+
+.accordion-button {
+  font-weight: 500;
+}
+
+.accordion-body {
+  font-weight: 200;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
 /*CONTACT*/
 .form {
   display: flex;
@@ -256,37 +287,6 @@ body {
 }
 .button:-webkit-details-marker {
   display: none;
-}
-
-/*----------------------------------------------------------------------------------------------------------------*/
-/*FAQ*/
-.title {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: x-large;
-  font-weight: 400;
-  padding-top: 3%;
-}
-
-.subtitle {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: large;
-  font-weight: bold;
-  padding-top: 4%;
-  padding-bottom: 2%;
-}
-
-.linksFAQ {
-  text-decoration: none;
-}
-
-.accordion-button {
-  font-weight: 500;
-}
-
-.accordion-body {
-  font-weight: 200;
 }
 
 /*----------------------------------------------------------------------------------------------------------------*/
