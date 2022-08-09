@@ -262,23 +262,31 @@ body {
 /*FAQ*/
 .title {
   text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: x-large;
-  font-weight: lighter;
+  font-weight: 400;
   padding-top: 3%;
 }
 
 .subtitle {
   text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
   font-size: large;
-  font-weight: lighter;
-  padding-top: 2.4%;
-  padding-bottom: 3%;
+  font-weight: bold;
+  padding-top: 4%;
+  padding-bottom: 2%;
 }
 
 .linksFAQ {
   text-decoration: none;
+}
+
+.accordion-button {
+  font-weight: 500;
+}
+
+.accordion-body {
+  font-weight: 200;
 }
 
 /*----------------------------------------------------------------------------------------------------------------*/
