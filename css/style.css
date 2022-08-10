@@ -108,6 +108,11 @@ body {
   overflow: hidden;
 }
 
+.md {
+  width: 20px;
+  height: 20px;
+}
+
 .cart-button.clicked span.dot {
   -webkit-animation: item 0.3s ease-in forwards;
           animation: item 0.3s ease-in forwards;
