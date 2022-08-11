@@ -18,8 +18,8 @@ header {
 
 /*----------------------------------------------------------------------------------------------------------------*/
 /*GENERAL*/
-section {
-  background-color: #f7f7f7;
+body {
+  background: #f7f7f7;
 }
 
 /*----------------------------------------------------------------------------------------------------------------*/
@@ -30,8 +30,24 @@ section {
 
 /*----------------------------------------------------------------------------------------------------------------*/
 /*PRODUCTS*/
-body {
-  background: #f7f7f7;
+.banners {
+  background: linear-gradient(90deg, rgb(47, 47, 47) 0%, rgb(116, 116, 116) 100%);
+}
+.banners .title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  padding-top: 3%;
+  color: white;
+}
+.banners .subtitle-one {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  margin-top: 1%;
+  padding-bottom: 2%;
+  color: white;
 }
 
 .wrapper {
@@ -151,21 +167,13 @@ body {
 }
 /*----------------------------------------------------------------------------------------------------------------*/
 /*FAQ*/
-.title {
-  text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: x-large;
-  font-weight: 400;
-  padding-top: 3%;
-}
-
 .subtitle {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: large;
   font-weight: 400;
-  padding-top: 4%;
-  padding-bottom: 2%;
+  padding-top: 3%;
+  padding-bottom: 1.5%;
 }
 
 .linksFAQ {
