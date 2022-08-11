@@ -19,7 +19,7 @@ header {
 /*----------------------------------------------------------------------------------------------------------------*/
 /*GENERAL*/
 section {
-  background-color: #f3f3f3;
+  background-color: #f7f7f7;
 }
 
 /*----------------------------------------------------------------------------------------------------------------*/
@@ -31,7 +31,7 @@ section {
 /*----------------------------------------------------------------------------------------------------------------*/
 /*PRODUCTS*/
 body {
-  background: #f3f3f3;
+  background: #f7f7f7;
 }
 
 .wrapper {
@@ -54,7 +54,7 @@ body {
 
 .buttons {
   padding: 10px;
-  background-color: #f3f3f3;
+  background-color: #f7f7f7;
   border-radius: 4px;
   position: relative;
   margin-top: 7px;
@@ -255,7 +255,7 @@ body {
 /*FOOTER*/
 .footer-clean {
   padding: 50px 0;
-  background-color: #f3f3f3;
+  background-color: #f7f7f7;
   color: #4b4c4d;
 }
 
