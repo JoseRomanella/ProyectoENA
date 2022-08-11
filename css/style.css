@@ -48,7 +48,7 @@ body {
 
 .buttons {
   padding: 10px;
-  background-color: rgba(214, 212, 212, 0.3098039216);
+  background-color: #f3f3f3;
   border-radius: 4px;
   position: relative;
   margin-top: 7px;
@@ -67,21 +67,6 @@ body {
 
 .btn:focus {
   background-color: rgb(52, 143, 146);
-}
-
-.dot {
-  height: 14px;
-  width: 14px;
-  background-color: rgb(52, 143, 146);
-  border-radius: 50%;
-  position: absolute;
-  left: 27%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 8px;
-  color: #fff;
-  opacity: 0;
 }
 
 .cart-button {
@@ -113,66 +98,6 @@ body {
   height: 20px;
 }
 
-.cart-button.clicked span.dot {
-  -webkit-animation: item 0.3s ease-in forwards;
-          animation: item 0.3s ease-in forwards;
-}
-
-@-webkit-keyframes item {
-  0% {
-    opacity: 1;
-    top: 30%;
-    left: 30%;
-  }
-  25% {
-    opacity: 1;
-    left: 26%;
-    top: 0%;
-  }
-  50% {
-    opacity: 1;
-    left: 23%;
-    top: -22%;
-  }
-  75% {
-    opacity: 1;
-    left: 19%;
-    top: -18%;
-  }
-  100% {
-    opacity: 1;
-    left: 14%;
-    top: 28%;
-  }
-}
-
-@keyframes item {
-  0% {
-    opacity: 1;
-    top: 30%;
-    left: 30%;
-  }
-  25% {
-    opacity: 1;
-    left: 26%;
-    top: 0%;
-  }
-  50% {
-    opacity: 1;
-    left: 23%;
-    top: -22%;
-  }
-  75% {
-    opacity: 1;
-    left: 19%;
-    top: -18%;
-  }
-  100% {
-    opacity: 1;
-    left: 14%;
-    top: 28%;
-  }
-}
 .card:hover .buttons {
   opacity: 1;
 }
