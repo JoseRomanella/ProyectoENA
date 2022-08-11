@@ -19,13 +19,13 @@ header {
 /*----------------------------------------------------------------------------------------------------------------*/
 /*GENERAL*/
 section {
-  background-color: #f3f3f3;
+  background-color: #f7f5f5;
 }
 
 /*----------------------------------------------------------------------------------------------------------------*/
 /*PRODUCTS*/
 body {
-  background: rgb(255, 255, 255);
+  background: #f7f5f5;
 }
 
 .wrapper {
@@ -48,7 +48,7 @@ body {
 
 .buttons {
   padding: 10px;
-  background-color: #f3f3f3;
+  background-color: #f7f5f5;
   border-radius: 4px;
   position: relative;
   margin-top: 7px;
