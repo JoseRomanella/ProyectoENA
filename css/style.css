@@ -7,15 +7,28 @@ header {
   display: block;
 }
 
+.logo {
+  width: 45%;
+}
+
 .navbar-nav {
   width: 60%;
   justify-content: space-around;
 }
 
-.logo {
-  width: 45%;
+.nav-link:hover {
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
 }
 
+@media (max-width: 576px) {
+  .logo {
+    width: 35%;
+  }
+  .navbar-brand {
+    width: 80%;
+  }
+}
 /*----------------------------------------------------------------------------------------------------------------*/
 /*GENERAL*/
 body {
