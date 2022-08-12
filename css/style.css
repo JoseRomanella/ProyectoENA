@@ -30,24 +30,22 @@ body {
 
 /*----------------------------------------------------------------------------------------------------------------*/
 /*PRODUCTS*/
-.headings {
-  background: linear-gradient(0deg, rgb(116, 116, 116) 0%, rgb(47, 47, 47) 100%);
-}
 .headings .title {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: xx-large;
-  font-weight: bold;
-  padding-top: 3%;
-  color: white;
+  font-weight: 400;
+  padding-top: 5%;
+  color: rgb(0, 0, 0);
 }
 .headings .subtitle-one {
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: large;
+  font-size: medium;
+  font-weight: 200;
   margin-top: 1%;
   padding-bottom: 2%;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .wrapper {
@@ -172,8 +170,8 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: large;
   font-weight: 400;
-  padding-top: 3%;
-  padding-bottom: 1.5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 .linksFAQ {
