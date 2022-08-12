@@ -30,10 +30,10 @@ body {
 
 /*----------------------------------------------------------------------------------------------------------------*/
 /*PRODUCTS*/
-.banners {
-  background: linear-gradient(90deg, rgb(47, 47, 47) 0%, rgb(116, 116, 116) 100%);
+.headings {
+  background: linear-gradient(0deg, rgb(116, 116, 116) 0%, rgb(47, 47, 47) 100%);
 }
-.banners .title {
+.headings .title {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: xx-large;
@@ -41,7 +41,7 @@ body {
   padding-top: 3%;
   color: white;
 }
-.banners .subtitle-one {
+.headings .subtitle-one {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: large;
