@@ -30,15 +30,7 @@ body{
 
 @media (max-width: 576px){
 
-    .carousel-responsive{
 
-        display: none;
-    }
-
-    .carousel-phone{
-
-        display: block;
-    }
 }
   
 /*----------------------------------------------------------------------------------------------------------------*/
@@ -68,7 +60,7 @@ body{
     
         text-align: center;
         font-family:'Montserrat', sans-serif;
-        font-size: medium;
+        font-size: large;
         font-weight: 200;
         margin-top: 1%;
         padding-bottom: 2%;
