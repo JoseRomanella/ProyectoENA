@@ -23,14 +23,22 @@ body{
     margin-top: 3%;
 }
 
-.carousel-phone{
+#carouselExampleFade{
 
     display: none;
 }
 
 @media (max-width: 576px){
 
+    #carouselExampleFade{
 
+        display: flex;
+    }
+
+    #carouselExampleIndicators{
+
+        display: none;
+    }
 }
   
 /*----------------------------------------------------------------------------------------------------------------*/
