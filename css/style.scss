@@ -22,6 +22,24 @@ body{
 
     margin-top: 3%;
 }
+
+.carousel-phone{
+
+    display: none;
+}
+
+@media (max-width: 576px){
+
+    .carousel-responsive{
+
+        display: none;
+    }
+
+    .carousel-phone{
+
+        display: contents;
+    }
+}
   
 /*----------------------------------------------------------------------------------------------------------------*/
 /*PRODUCTS*/
