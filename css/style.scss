@@ -131,16 +131,16 @@ body{
 
     background-color: rgb(25, 25, 25);
     border: none;
-}
 
-.btn:hover{
+    &:hover{
 
-    background-color: rgb(109, 178, 189);
-}
+        background-color: rgb(109, 178, 189);
+    }
 
-.btn:focus{
+    &:focus{
 
-    background-color: rgb(52, 143, 146);
+        background-color: rgb(52, 143, 146);
+    }
 }
 
 .cart-button {
