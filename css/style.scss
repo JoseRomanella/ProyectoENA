@@ -59,7 +59,8 @@ body {
 
     .title {
 
-        @include center-montserrat;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
         font-size: xx-large;
         font-weight: 400;
         margin-top: 5%;
@@ -76,20 +77,13 @@ body {
 
     .subtitle-one {
 
-        @include center-montserrat;
+        @extend .title;
         font-size: medium;
         font-weight: 200;
         margin-top: 1%;
         margin-bottom: 2%;
         color: rgb(37, 37, 37);
         transform: scale(0.84);
-        animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
-
-        @keyframes scale {
-            100% {
-                transform: scale(1);
-            }
-        }
     }
 }
 
