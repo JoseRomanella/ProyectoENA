@@ -1,7 +1,7 @@
 $backgroundcolor:#f7f7f7;
 
-@mixin center-montserrat {
-    
+@mixin center-w400 {
+
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }

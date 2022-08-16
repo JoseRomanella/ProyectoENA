@@ -64,9 +64,9 @@ body {
 /*PRODUCTS*/
 .headings .title, .headings .subtitle-one {
   text-align: center;
+  font-weight: 400;
   font-family: "Montserrat", sans-serif;
   font-size: xx-large;
-  font-weight: 400;
   margin-top: 5%;
   color: rgb(0, 0, 0);
   transform: scale(0.84);
@@ -89,7 +89,6 @@ body {
   margin-top: 1%;
   margin-bottom: 2%;
   color: rgb(37, 37, 37);
-  transform: scale(0.84);
 }
 
 .wrapper {
@@ -208,9 +207,9 @@ body {
 /*FAQ*/
 .subtitle {
   text-align: center;
+  font-weight: 400;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: large;
-  font-weight: 400;
   padding-top: 4%;
   padding-bottom: 4%;
 }
