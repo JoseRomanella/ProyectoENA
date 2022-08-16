@@ -90,12 +90,6 @@ body {
     margin-top: 30px;
 }
 
-.card {
-
-    border: 1px solid #eee;
-    cursor: pointer;
-}
-
 .weight {
 
     margin-top: -65px;
@@ -134,16 +128,6 @@ body {
     }
 }
 
-.cart-button {
-
-    height: 48px
-}
-
-.cart-button:focus {
-
-    box-shadow: none
-}
-
 .cart {
 
     position: relative;
@@ -161,10 +145,40 @@ body {
     overflow: hidden;
 }
 
+.cart-button {
+
+    height: 48px;
+
+    &:focus{
+
+        box-shadow: none;
+    }
+}
+
+.row {
+
+    justify-content: center;
+    margin-top: 30px;
+}
+
 .md {
 
     width: 20px;
     height: 20px;
+}
+
+.card {
+
+    max-width: 540px;
+    border: 1px solid #eee;
+    cursor: pointer;
+
+    &:hover {
+
+        transform: scale(1.04);
+        z-index: 2;
+        overflow: hidden;
+    }
 }
 
 .card:hover .buttons {
@@ -175,24 +189,6 @@ body {
 .card:hover .weight {
 
     margin-top: 10px;
-}
-
-.card:hover {
-
-    transform: scale(1.04);
-    z-index: 2;
-    overflow: hidden;
-}
-
-.row {
-
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.card {
-
-    max-width: 540px;
 }
 
 /*----------------------------------------------------------------------------------------------------------------*/
