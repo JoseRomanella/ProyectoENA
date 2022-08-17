@@ -5,3 +5,10 @@ $backgroundcolor:#f7f7f7;
     text-align: center;
     font-weight: 400;
 }
+
+$colors: (
+
+    "primary": $backgroundcolor,
+    "black": black,
+    "white": white,
+)
