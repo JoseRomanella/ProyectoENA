@@ -29,12 +29,35 @@ header {
     width: 70%;
   }
 }
+.user-cart {
+  width: 10%;
+  letter-spacing: 20px;
+}
+
 /*----------------------------------------------------------------------------------------------------------------*/
 /*GENERAL*/
 body {
   background: #f7f7f7;
 }
 
+.breadcrumbs {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.breadcrumbs .crumb {
+  font-size: small;
+  text-decoration: none;
+  color: rgb(63, 63, 63);
+}
+.breadcrumbs .crumb:hover {
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .breadcrumbs {
+    display: none;
+  }
+}
 /*----------------------------------------------------------------------------------------------------------------*/
 /*INDEX*/
 .container {

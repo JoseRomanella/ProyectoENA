@@ -12,12 +12,33 @@
 
 body {
 
-    background: map-get($map: colors, $key: primary );
+    background: $backgroundcolor
 }
 
-.breadcrumb{
+.breadcrumbs{
 
-    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+
+    .crumb{
+
+        font-size: small;
+        text-decoration: none;
+        color: rgb(63, 63, 63);
+
+        &:hover{
+
+            color: black;
+        }
+    }
+}
+
+@media (max-width: 576px){
+
+    .breadcrumbs{
+
+        display: none;
+    }
 }
 
 /*----------------------------------------------------------------------------------------------------------------*/
