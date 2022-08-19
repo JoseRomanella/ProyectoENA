@@ -43,10 +43,21 @@ header{
     letter-spacing: 20px;
 }
 
+.user-cart-{
+
+    display: none;
+}
+
 @media (max-width: 992px){
 
     .user-cart{
 
-    
+        display: none;
+    }
+
+    .user-cart-{
+
+        display:block;
+        letter-spacing: 10px;
     }
 }
