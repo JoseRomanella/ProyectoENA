@@ -256,7 +256,8 @@ body {
 
     @include center-w400;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
+    font-size: larger;
+    font-weight: 600;
     padding-top: 4%;
     padding-bottom: 4%;
 }
@@ -268,7 +269,7 @@ body {
 
 .accordion-button {
 
-    font-weight: 500;
+    font-weight: 400;
 
     &:focus {
 
@@ -302,6 +303,14 @@ body {
 .form-control {
 
     font-weight: 200;
+
+    &:focus {
+
+        background-color: white;
+        border-color: rgb(0, 0, 0);
+        box-shadow: none;
+        color: #24292E;
+    }
 }
 
 /*----------------------------------------------------------------------------------------------------------------*/
