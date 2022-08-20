@@ -23,6 +23,10 @@ header{
     }
 }
 
+.nav-cart-user{
+
+    display: none;
+}
 
 @media (max-width: 576px){
 
@@ -43,10 +47,6 @@ header{
     letter-spacing: 20px;
 }
 
-.user-cart-{
-
-    display: none;
-}
 
 @media (max-width: 992px){
 
@@ -55,9 +55,15 @@ header{
         display: none;
     }
 
-    .user-cart-{
+    .nav-cart-user{
 
-        display:block;
-        letter-spacing: 10px;
+        display: inline;
+    }
+
+    .log-in{
+
+        border-top: solid;
+        border-width: 1px;
+        border-color: rgb(206, 206, 206);
     }
 }

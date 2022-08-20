@@ -21,6 +21,10 @@ header {
   color: rgb(0, 0, 0);
 }
 
+.nav-cart-user {
+  display: none;
+}
+
 @media (max-width: 576px) {
   .logo {
     width: 35%;
@@ -34,17 +38,17 @@ header {
   letter-spacing: 20px;
 }
 
-.user-cart- {
-  display: none;
-}
-
 @media (max-width: 992px) {
   .user-cart {
     display: none;
   }
-  .user-cart- {
-    display: block;
-    letter-spacing: 10px;
+  .nav-cart-user {
+    display: inline;
+  }
+  .log-in {
+    border-top: solid;
+    border-width: 1px;
+    border-color: rgb(206, 206, 206);
   }
 }
 /*----------------------------------------------------------------------------------------------------------------*/
