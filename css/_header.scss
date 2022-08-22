@@ -41,6 +41,17 @@ header{
     }
 }
 
+.item-u-c{
+
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+
+    &:hover{
+
+        color: rgb(0, 0, 0);
+    }
+}
+
 .user-cart{
 
     width: 10%;

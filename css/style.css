@@ -33,6 +33,14 @@ header {
     width: 70%;
   }
 }
+.item-u-c {
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+}
+.item-u-c:hover {
+  color: rgb(0, 0, 0);
+}
+
 .user-cart {
   width: 10%;
   letter-spacing: 20px;
