@@ -336,6 +336,10 @@ body {
   text-align: right;
 }
 
+.item-social {
+  background-color: rgb(255, 255, 255);
+}
+
 @media (max-width: 767px) {
   .footer-clean .item {
     text-align: center;
