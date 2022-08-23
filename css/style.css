@@ -303,6 +303,15 @@ body {
   text-decoration: none;
   color: white;
 }
+.btn-contact:hover {
+  color: white;
+}
+.btn-contact:focus {
+  box-shadow: none;
+}
+.btn-contact:active {
+  color: white;
+}
 
 /*----------------------------------------------------------------------------------------------------------------*/
 /*FOOTER*/
